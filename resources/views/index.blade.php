@@ -76,7 +76,7 @@
                             <h1 class="font-light text-white">
                                 <i class="fas fa-sign-in-alt"></i>
                             </h1>
-                            <h4 class="text-white">今日登入人數數 {{$today_user}}</h4>
+                            <h4 class="text-white">今日登入人數 {{$today_user}}</h4>
                         </div>
                     </div>
                 </div>
