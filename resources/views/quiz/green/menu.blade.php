@@ -66,6 +66,9 @@
             <a href="{{route('practice_green')}}?id={{$i}}" class="btn btn-info btn-lg" width="50%">第{{$i}}關</a>
         </div>
     @endfor
+        <div class="row col-lg mb-4 d-flex justify-content-center">
+            <a href="{{ url('/') }}" class="btn btn-info btn-lg" width="50%">回到首頁</a>
+        </div>
 </div>
 
 

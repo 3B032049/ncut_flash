@@ -67,7 +67,9 @@
                 </div>
             @endfor
     </div>
-
+            <div class="row col-lg mb-4 d-flex justify-content-center">
+                <a href="{{ url('/') }}" class="btn btn-info btn-lg" width="50%">回到首頁</a>
+            </div>
 
 </body>
 </html>
