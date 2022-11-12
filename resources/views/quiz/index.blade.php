@@ -184,17 +184,17 @@
                 }
             });
             var button = document.querySelector('.prompttest');
-            var showtxt = document.querySelector('.show');
             function popup3(e) {
-                var guest = window.prompt('您好!請輸入您的姓名', '20');
+                var guest = window.prompt('您好!請輸入秒數', '20');
                 if (guest == null || "") {
-                showtxt.innerHTML = '您已取消輸入'
+                    window.counter = 20;
                 } else {
                     window.counter =  guest ;
                  }
                 }
                 button.addEventListener('click', popup3);
-                //window.counter = x;
+                OnClientClick="this.disabled='disabled'; setTimeout('this.disabled=\'\'', 5000);"
+                //window.counter = 20;
                 var timeless = true
                 var interval = setInterval(function() {
                     window.counter--;
