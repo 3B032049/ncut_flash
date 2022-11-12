@@ -101,7 +101,11 @@
         </div>
     </footer>
 
+    <input class='prompttest' type="button" value="按我"><p class='show'></p>
+
     <script type="text/javascript">
+
+ 
 
         $(document).ready(function() {
 
@@ -179,8 +183,18 @@
                     temp.length = 0;
                 }
             });
-                var second=Interaction.InputBox("請輸入秒數", "秒數","輸入框內容");
-                window.counter = second;
+            var button = document.querySelector('.prompttest');
+            var showtxt = document.querySelector('.show');
+            function popup3(e) {
+                var guest = window.prompt('您好!請輸入您的姓名', '20');
+                if (guest == null || "") {
+                showtxt.innerHTML = '您已取消輸入'
+                } else {
+                    window.counter =  guest ;
+                 }
+                }
+                button.addEventListener('click', popup3);
+                //window.counter = x;
                 var timeless = true
                 var interval = setInterval(function() {
                     window.counter--;
