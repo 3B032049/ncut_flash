@@ -183,16 +183,16 @@
                     temp.length = 0;
                 }
             });
-            popup3;
-            function popup3(e) {
+            //popup3;
+            //function popup3(e) {
                 var guest = window. prompt('您好!請輸入秒數', '20');
                 if (guest == null || "") {
                     window.counter = 20;
                 } else {
                     window.counter =  guest ;
                  }
-                }
-                button.addEventListener('click', popup3);
+                //}
+                //button.addEventListener('click', popup3);
                 //window.counter = 20;
                 var timeless = true
                 var interval = setInterval(function() {
