@@ -179,8 +179,8 @@
                     temp.length = 0;
                 }
             });
-                x=Interaction.InputBox("請輸入秒數", "秒數","輸入框內容",-1,-1);
-                window.counter = x;
+                var second=Interaction.InputBox("請輸入秒數", "秒數","輸入框內容");
+                window.counter = second;
                 var timeless = true
                 var interval = setInterval(function() {
                     window.counter--;
