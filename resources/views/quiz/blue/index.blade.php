@@ -177,7 +177,13 @@ $("#getting-started")
                 temp.length = 0;
             }
         });
-        window.counter = 20;
+        var second = window. prompt('請輸入秒數!!', '20');
+                if (second == null || "") {
+                    window.counter = 20;
+                } else {
+                    window.counter = second ;
+                }
+        //window.counter = 20;
         var timeless = true
         var interval = setInterval(function() {
             window.counter--;

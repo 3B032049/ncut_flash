@@ -101,8 +101,6 @@
         </div>
     </footer>
 
-    <!--<input class='prompttest' type="button" value="按我"  onclick="setTimeout('restoreButton()', 5000);"><p class='show'></p>-->
-
     <script type="text/javascript">
 
  
@@ -183,16 +181,13 @@
                     temp.length = 0;
                 }
             });
-            //popup3;
-            //function popup3(e) {
-                var guest = window. prompt('您好!請輸入秒數', '20');
-                if (guest == null || "") {
+
+                var second = window. prompt('請輸入秒數!!', '20');
+                if (second == null || "") {
                     window.counter = 20;
                 } else {
-                    window.counter =  guest ;
+                    window.counter = second ;
                  }
-                //}
-                //button.addEventListener('click', popup3);
                 //window.counter = 20;
                 var timeless = true
                 var interval = setInterval(function() {
