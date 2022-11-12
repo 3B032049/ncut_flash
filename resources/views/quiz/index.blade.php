@@ -179,7 +179,7 @@
                     temp.length = 0;
                 }
             });
-                window.counter = 20;
+                window.counter = 25;
                 var timeless = true
                 var interval = setInterval(function() {
                     window.counter--;
