@@ -101,7 +101,7 @@
         </div>
     </footer>
 
-    <input class='prompttest' type="button" value="按我" onclick="this.disabled='disabled';return true;"><p class='show'></p>
+    <input class='prompttest' type="button" value="按我"  onclick="setTimeout('restoreImageButton()', 5000);"><p class='show'></p>
 
     <script type="text/javascript">
 
