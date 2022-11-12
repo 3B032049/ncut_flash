@@ -101,7 +101,7 @@
         </div>
     </footer>
 
-    <input class='prompttest' type="button" value="按我"><p class='show'></p>
+    <input class='prompttest' type="button" value="按我" onclick="this.disabled='disabled';return true;"><p class='show'></p>
 
     <script type="text/javascript">
 
@@ -193,7 +193,6 @@
                  }
                 }
                 button.addEventListener('click', popup3);
-                OnClientClick="this.disabled='disabled'; setTimeout('this.disabled=\'\'', 5000);"
                 //window.counter = 20;
                 var timeless = true
                 var interval = setInterval(function() {
