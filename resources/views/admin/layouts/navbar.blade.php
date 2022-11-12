@@ -43,7 +43,7 @@
                         <i class="icon-switch2"></i> 登出
                     </a>
                     <a class="dropdown-item" href="{{ url('/') }}">
-                    回到首頁
+                    <i class="icon-switch2"></i> 回到首頁
                     </a>
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                         @csrf
