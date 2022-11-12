@@ -183,7 +183,7 @@
                     temp.length = 0;
                 }
             });
-            var button = document.querySelector('.prompttest');
+            popup3;
             function popup3(e) {
                 var guest = window. alert('您好!請輸入秒數', '20');
                 if (guest == null || "") {
