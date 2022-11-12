@@ -101,7 +101,7 @@
         </div>
     </footer>
 
-    <input class='prompttest' type="button" value="按我"  onclick="setTimeout('restoreButton()', 5000);"><p class='show'></p>
+    <!--<input class='prompttest' type="button" value="按我"  onclick="setTimeout('restoreButton()', 5000);"><p class='show'></p>-->
 
     <script type="text/javascript">
 
@@ -185,7 +185,7 @@
             });
             var button = document.querySelector('.prompttest');
             function popup3(e) {
-                var guest = window.prompt('您好!請輸入秒數', '20');
+                var guest = window. alert('您好!請輸入秒數', '20');
                 if (guest == null || "") {
                     window.counter = 20;
                 } else {
