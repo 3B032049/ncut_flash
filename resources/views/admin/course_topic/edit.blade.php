@@ -35,7 +35,7 @@
                     <label class="col-form-label col-lg-2"></label>
                     <div class="col-lg-10">
                         <audio id="audio" controls style="width: 100%;">
-                            <source id="source" src="{{asset('data/FOLDER'.($cid-1).'/LS/PAUL/'.($query[0]->number-1).'.ogg')}}" type="audio/ogg">
+                            <source id="source" src="{{asset('data/FOLDER'.($cid-1).'/LS/PAUL/'.($query[0]->number-1).'.mp3')}}" type="audio/ogg">
                         </audio>
                     </div>
                 </div>
