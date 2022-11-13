@@ -149,7 +149,7 @@
     }
     
     function playAudio() {
-        $("audio").attr('src',"data/FOLDER"+current_dir+"/LS/PAUL/"+(page+1)+".mp3");
+        $("audio").attr('src',"data/FOLDER"+current_dir+"/LS/PAUL/"+(page+1)+".ogg");
         x = document.getElementById("audio");
         x.play();
     }
