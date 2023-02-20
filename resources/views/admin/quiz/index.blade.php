@@ -10,7 +10,9 @@
 @stop
 
 @section('content')
-
+     <script type="text/javascript">
+    var second = window. prompt('請輸入秒數!!', '20');
+    </script>
     <div class="row">
         <div class="card col-lg">
             <div class="card-header header-elements-inline">
