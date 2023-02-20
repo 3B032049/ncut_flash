@@ -182,12 +182,14 @@
                 }
             });
 
-                var second = window. prompt('請輸入秒數!!', '20');
-                if (second == null || "") {
-                    window.counter = 20;
-                } else {
-                    window.counter = second ;
-                 }
+               // var second = window. prompt('請輸入秒數!!', '20');
+               // if (second == null || "") {
+               //     window.counter = 20;
+               // } else {
+               //    window.counter = second ;
+               // }
+                 session_start();               
+                 window.counter = $_SESSION['second'] ;
                 //window.counter = 20;
                 var timeless = true
                 var interval = setInterval(function() {
