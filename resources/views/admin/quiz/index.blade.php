@@ -14,7 +14,7 @@
     <script type="text/javascript">
      session_start();  　   
         var second = window. prompt('請輸入秒數!!', '20');
-        $_SESSION['second']=second;
+   //     $_SESSION['ssecond']=second;
     </script>
     
     <div class="row">
