@@ -88,7 +88,6 @@
                 <a href="#" class="nav-link"><i class="icon-pencil5"></i> <span>考試(黃色)</span></a>
 
                 <ul class="nav nav-group-sub" data-submenu-title="quiz">
-                    <li class="nav-item"><a href="{{route('yellow_show')}}" class="nav-link active">色區塊</a></li>
                     <li class="nav-item"><a href="{{route('yellow_show')}}" class="nav-link active">黃色區塊</a></li>
                     <li class="nav-item"><a href="{{route('show_data')}}" class="nav-link">學生考試狀況</a></li>
                 </ul>
