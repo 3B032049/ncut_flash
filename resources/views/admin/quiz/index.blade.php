@@ -10,12 +10,6 @@
 @stop
 
 @section('content')
-     
-    <script type="text/javascript">
-     　 session_start();
-        var second = window. prompt('請輸入秒數!!', '20');
-   //     $_SESSION['ssecond']=second;
-    </script>
     
     <div class="row">
         <div class="card col-lg">
