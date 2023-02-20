@@ -10,9 +10,9 @@
 @stop
 
 @section('content')
-    session_start();  
+     
     <script type="text/javascript">
-     　   
+     　 session_start(); 
         var second = window. prompt('請輸入秒數!!', '20');
    //     $_SESSION['ssecond']=second;
     </script>
