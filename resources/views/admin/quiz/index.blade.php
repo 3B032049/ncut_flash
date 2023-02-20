@@ -12,8 +12,9 @@
 @section('content')
 
     <script type="text/javascript">
-     session_start();
-    　   $_SESSION['second']=window. prompt('請輸入秒數!!', '20');
+     session_start();  　   
+        var second = window. prompt('請輸入秒數!!', '20');
+        $_SESSION['second']=second;
     </script>
     
     <div class="row">
